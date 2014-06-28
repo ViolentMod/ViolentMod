@@ -1,6 +1,8 @@
 package violentninjad.violentmod;
 //Copyright ViolentNInjaD 2014
 
+import violentninjad.violentmod.block.BlockViolentMod;
+import violentninjad.violentmod.init.ModItems;
 import violentninjad.violentmod.proxy.IProxy;
 import violentninjad.violentmod.reference.ModInfo;
 import cpw.mods.fml.common.Mod;
@@ -21,6 +23,7 @@ public class ViolentMod {
 	    @Mod.EventHandler
 	    public void preInit(FMLPreInitializationEvent event) {
 	    	
+	    	ModItems.init();
 	    }
 
 
