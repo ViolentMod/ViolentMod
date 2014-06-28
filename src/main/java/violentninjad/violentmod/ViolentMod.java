@@ -1,6 +1,8 @@
 package violentninjad.violentmod;
 //Copyright ViolentNInjaD 2014
 
+import net.minecraft.client.stream.TwitchStream;
+import net.minecraftforge.common.config.Configuration;
 import violentninjad.violentmod.block.BlockViolentMod;
 import violentninjad.violentmod.init.ModItems;
 import violentninjad.violentmod.proxy.IProxy;
@@ -10,6 +12,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+
 
 @Mod(modid=ModInfo.MOD_ID, name=ModInfo.MOD_NAME, version=ModInfo.MOD_VERSION)
 public class ViolentMod {
@@ -22,6 +25,12 @@ public class ViolentMod {
 	    
 	    @Mod.EventHandler
 	    public void preInit(FMLPreInitializationEvent event) {
+	    	
+	    	Configuration config = new Configuration(event.getSuggestedConfigurationFile());
+			
+			config.load();
+			
+			config.save();
 	    	
 	    	ModItems.init();
 	    }
