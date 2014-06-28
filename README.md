@@ -20,3 +20,15 @@ If you want to pick up the most recent features that are not released in a build
 
 6)Now you have your build with the most up to date features =)
 
+Contributing
+============
+If you would like to help me make my mod, contribute!
+
+1)First fork my repository so you have your own copy of it.
+
+2)Make the changes you want to make to my code inside of your fork.
+
+3)Make a pull request inside my repository which includes the changes you made in your fork, include a little description of what you've done!
+
+4)If I like what you've changed, or if it fixes a major error, then I will merge the pull request =)
+
