@@ -5,6 +5,7 @@ import net.minecraft.client.stream.TwitchStream;
 import net.minecraftforge.common.config.Configuration;
 import violentninjad.violentmod.block.BlockViolentMod;
 import violentninjad.violentmod.init.ModItems;
+import violentninjad.violentmod.init.Recipes;
 import violentninjad.violentmod.proxy.IProxy;
 import violentninjad.violentmod.reference.ModInfo;
 import cpw.mods.fml.common.Mod;
@@ -38,6 +39,8 @@ public class ViolentMod {
 
 	    @Mod.EventHandler
 	    public void init(FMLInitializationEvent event) {
+	    	
+	    	Recipes.init();
 	    	
 	    }
 	
