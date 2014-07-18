@@ -1,1 +1,8 @@
+#Items
 item.violentmod:blueCrystal.name=Blue Crystal
+
+#Blocks
+tile.violentmod:blueCrystalChest.name=Blue Crystal Chest
+
+#ToolTips
+tooltip.ViolentMod:blueCrystalChestPrefix.standard=Standard

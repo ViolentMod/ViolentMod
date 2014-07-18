@@ -179,7 +179,6 @@ public class TileEntityBlueCrystalChest extends TileEntityViolentMod implements 
     {
         super.writeToNBT(nbtTagCompound);
 
-        // Write the ItemStacks in the inventory to NBT
         NBTTagList tagList = new NBTTagList();
         for (int currentIndex = 0; currentIndex < inventory.length; ++currentIndex)
         {

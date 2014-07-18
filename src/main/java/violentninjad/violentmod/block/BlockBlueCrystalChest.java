@@ -21,6 +21,7 @@ public class BlockBlueCrystalChest extends BlockViolentMod implements ITileEntit
         this.setHardness(3.0F);
         this.setBlockName(Names.Blocks.BLUE_CRYSTAL_CHEST);
         this.setBlockBounds(0.0625f, 0.0f, 0.0625f, 0.9375f, 0.875f, 0.9375f);
+        this.setBlockTextureName(Names.Blocks.BLUE_CRYSTAL_CHEST);
     }
 
     @Override

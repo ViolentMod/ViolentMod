@@ -15,6 +15,6 @@ public class ModBlocks {
 
     public static void init()
     {
-        GameRegistry.registerBlock(blueCrystalChest, Names.Blocks.BLUE_CRYSTAL_CHEST);
+        GameRegistry.registerBlock(blueCrystalChest, ItemBlockBlueCrystalChest.class, Names.Blocks.BLUE_CRYSTAL_CHEST);
     }
 }
