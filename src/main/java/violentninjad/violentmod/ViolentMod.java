@@ -47,6 +47,8 @@ public class ViolentMod {
 	    public void init(FMLInitializationEvent event) {
 
             proxy.registerTileEntities();
+
+            proxy.initRenderingAndTextures();
 	    	
 	    	Recipes.init();
 	    	
