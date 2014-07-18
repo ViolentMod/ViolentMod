@@ -33,7 +33,7 @@ public class TileEntityBlueCrystalChest extends TileEntityViolentMod implements 
     private int ticksSinceSync;
 
     /**
-     * The ItemStacks that hold the items currently being used in the Alchemical Chest
+     * The ItemStacks that hold the items currently being used in the Chest.
      */
     private ItemStack[] inventory;
 
